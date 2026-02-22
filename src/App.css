@@ -1,0 +1,117 @@
+.Personal-tracker{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    align-content: center;
+}
+.top{
+  margin-top: -5rem;
+}
+h1{
+    margin-left: 1rem;
+}
+
+.Profile{
+  display: flex;
+  gap: 1rem;
+  color: black;
+  align-items: center;
+}
+
+.Profile option{
+
+  border-radius: 100vmax;
+  border: solid 2px black;
+  padding: 1rem;
+  color: black;
+  font-weight: 800;
+}
+
+
+/* Dashbord Component */
+.dashboard {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/* Base Card Style */
+.card {
+  flex: 1;
+  min-width: 220px;
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Gradient Colors */
+.green {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+}
+
+.blue {
+  background: linear-gradient(135deg, #3498db, #2980b9);
+}
+
+.red {
+  background: linear-gradient(135deg, #ff6b6b, #ee5253);
+}
+
+.purple {
+  background: linear-gradient(135deg, #a55eea, #8854d0);
+}
+
+.Data-hading{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+ 
+}
+
+.Search{
+
+  display: flex ;
+  gap: 3rem;
+
+  width: 70%;
+}
+.Search input{
+  width: 30%;
+  height: 40px;
+  border-radius: 100vmax;
+  text-align: center;
+  
+  
+  
+}
+
+.Search button{
+  border: #000000 solid 2px;
+  width: 19%;
+  background-color: #3498db;
+  color: white;
+   height: 40px;
+  border-radius: 100vmax;
+  text-align: center;
+
+}
